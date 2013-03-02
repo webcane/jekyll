@@ -1,2 +1,32 @@
 auto: true
 server: true
+
+
+# standard jekyll configuration
+
+permalink: none
+pygments: true
+exclude: ['Rakefile', 'README.md']
+markdown: rdiscount
+root_dir: "jekyll"
+
+# configuration required for some pages
+
+domain: webcane.github.com
+title: Webcane on GitHub
+author: cane
+email: webcane@ya.ru
+
+# configuration for ehancements, uncomment to enable
+
+# feedburner:
+#   id: feedburnerid
+
+# google_analytics:
+#   account: UA-XXXXX-X
+
+ github:
+   username: webcane
+
+# disqus:
+#   id: disqusid
